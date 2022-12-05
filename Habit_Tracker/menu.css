@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section
+{
+    display: flex;
+    background-image: url(https://img.freepik.com/free-vector/simple-gradient-background-vector-winter-blue-pink_53876-105768.jpg?w=2000);
+    padding: 20px 100px;
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+header{
+    width: 300px;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 500px;
+}
+a{
+    text-decoration: transparent;
+}
+.header1 h1,ul
+{
+    padding: 10px 20px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+nav .btn{
+    padding: 10px 20px;
+}
+nav .btn:hover{
+    padding: 10px 20px;
+}
+main img{
+    margin: 50px 40px;
+}
+.container
+{
+    margin: 0 auto;
+    position: relative;
+    margin-top:15%;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: transparent;
+    margin-bottom: 20px;
+    width: 400px;
+    color: black;
+}
+.add h1,.update h1,.delete h1{
+    margin-left: 30%;
+    margin-bottom: 20px;
+
+}
+.add button,.update button, .delete button,.display button
+{
+    padding: 10px 40px;
+    margin-left: 32%;
+    border: transparent;
+    background-color: green;
+    color: white;
+}
